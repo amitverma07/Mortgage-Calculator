@@ -11,7 +11,7 @@
 
 ###  This project calculate the mortgage. This project uses javascript to add logical functionality to the project.
 
-![srceen shot](https://raw.githubusercontent.com/amitverma07/Tip-Calculator/master/Capture.png)
+![srceen shot](https://raw.githubusercontent.com/amitverma07/Mortgage-Calculator/master/Capture.png)
 
 ## Technology Used
 
