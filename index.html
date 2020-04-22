@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mortgage Calculator</title>
+</head>
+
+<body>
+  <nav class="text-secondary text-center heading bg-dark p-3">Mortgage Calculator</nav>
+  <form>
+    <div class="form-group row col-md-10 mt-3">
+      <label class="col-sm-1 col-form-label">Loan Amount</label>
+      <div class="col-md-8 mt-2">
+        <input class="form-control" id="loanValue" type="number" min="1" max="5000000"  placeholder="Enter Loan Amount" />
+      </div>
+    </div>
+    <div class="form-group row col-md-10 mt-3">
+      <label class="col-sm-1 col-form-label">Interest Rate</label>
+      <div class="col-md-8 mt-2">
+        <input class="form-control" type="number" min="0" max="100" step=".1" id="iRValue"
+          placeholder="Enter Interest Rate" />
+      </div>
+    </div>
+    <div class="form-group row col-md-10 mt-3">
+      <label class="col-sm-1 col-form-label">Months To Pay</label>
+      <div class="col-md-8 mt-2">
+        <input class="form-control" type="number" min="1" max="300" step="1" id="months"
+          placeholder="Enter Months To Pay" />
+      </div>
+    </div>
+    <button class="btn btn-md bg-danger" id="myBtn">Calculate</button>
+    <p id="demo"></p>
+  </form>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popover.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js" defer></script>
+</body>
+
+</html>
